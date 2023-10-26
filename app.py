@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load your dataset here
-x = pd.read_excel("C:\\Users\\post2\\OneDrive\\Documents\\Random datasets\\Cyber crime in India since 2003\\All years datasets\\output2019_2020_2021.xlsx")
+x = pd.read_excel("output2019_2020_2021.xlsx")
 df = pd.DataFrame(x)
 
 # Split the data into features and target
